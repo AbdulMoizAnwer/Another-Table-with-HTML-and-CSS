@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        #table1{
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: center;
+        }
+        #table2{
+            border: 4px solid blue;
+            width: 581px;
+        }
+        .blue_border{
+            border: 2px solid blue;
+            margin: 0px;
+            padding: 0px;
+        }
+        #width_heading{
+            width: 575px;
+            height: 5px;
+        }
+        #margin_setting{
+            margin-top: 10%;
+            margin-left: 30%;
+        }
+        #align{
+            -webkit-border-horizontal-spacing: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="margin_setting">
+    <table border="0px" id="table1">
+        <tr><td id="width_heading">Advanced HTML tag for Table using thead,tbody and tfoot</td></tr>
+    </table>
+    <table id="table2" cellspacing="0px" cellpadding="15px">
+        <tr><th colspan="3" class="blue_border" id="align">Purchase order:987654321</th><th class="blue_border">Tutorialbrain - 10th Oct 2020</th></tr>
+        <tr><td rowspan="5" colspan="2" class="blue_border"><b>Vendor:</b><br>ABC XYZ ltd.<br>DUMMY STREET<br>BUILDING 123<br>HAZARIBAGH, JHARKHAND, 825301</td><td rowspan="5" colspan="2" class="blue_border"><b>SHIP TO:</b><br>MS DHONI<br>WILSON GARDEN<br>SOUTHEAST BLOCK, RANCHI - 834001</td></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr><th class="blue_border">Qty.</th><th class="blue_border">Item Code.</th><th class="blue_border">Description</th><th class="blue_border">Unit Price</th></tr>
+        <tr><td class="blue_border">100</td><td class="blue_border">IABCDE</td><td class="blue_border">Pencils</td><td class="blue_border">20.00</td></tr>
+        <tr><td class="blue_border">1000</td><td class="blue_border">IN877</td><td class="blue_border">Notebooks</td><td class="blue_border">100.00</td></tr>
+        <tr><td class="blue_border">500</td><td class="blue_border">IP8675</td><td class="blue_border">Pens</td><td class="blue_border">70.00</td></tr>
+        <tr><th colspan="3" class="blue_border">Subtotal</th><td class="blue_border">190.00</td></tr>
+        <tr><th colspan="2" class="blue_border">GST</th><td class="blue_border">5%</td><td class="blue_border">9.50</td></tr>
+        <tr><th colspan="3" class="blue_border">Grand Total</th><td class="blue_border">$ 199.50</td></tr>
+    </table>
+</div>
+</body>
+</html>
